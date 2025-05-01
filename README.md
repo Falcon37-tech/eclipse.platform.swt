@@ -2,8 +2,8 @@
 
 # About
 
-SWT is a cross-platform GUI library for JVM based desktop applications.
-The best known SWT-based application is [Eclipse](https://www.eclipse.org).
+SWT is a cross-platform GUI library for JVM-based desktop applications.
+The best-known SWT-based application is [Eclipse](https://www.eclipse.org).
 
 ## Getting Started
 
@@ -69,12 +69,12 @@ public class HelloWorld {
 	}
 }
 ```
-First, a `Display` is created which is something like the central place of all GUI-related code.
+First, a `Display` is created, which is the central place of all GUI-related code.
 Then a `Shell` is created which in our example is a top-level window.
 Then all child controls and listeners are created, including their layout information.
 Finally, we set the window's size determines by its child controls and open the window.
-The `while`-loop processes all GUI related events until the shell is disposed which happens when closing.
-Before exiting, any claimed GUI resources needs to be freed.
+The `while`-loop processes all GUI-related events until the shell is disposed, which happens when closing.
+Before exiting, any claimed GUI resources need to be freed.
 
 
 # Contributing to SWT
